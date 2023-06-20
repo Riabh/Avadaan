@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", Georgia;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #22180F;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    padding: 0 8%;
+}
+
+nav {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link {
+    padding: 10px 0;
+}
+
+.nav-link li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    color: bisque;
+    padding: 5px 0;
+    transition: 0.4s ease-in-out;
+}
+
+.nav-link li a:hover {
+    color: black;
+}
+
+hr {
+    color: black;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 0px;
+    color: white;
+}
+
+.button {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.button button {
+    border-radius: 20px; /* Adjust the border-radius as per your preference */
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: bisque;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: #f3d3b6; /* Adjust the hover background color as per your preference */
+}
+
+.nav-link li a::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.nav-link li a:hover::after {
+    width: 100%;
+}
+
+fieldset {
+    text-align: center;
+    font-size: large;
+    border: none;
+    padding: 40rem 0;
+    border-bottom: 3px bisque;
+}
+
+.about {
+    padding: 10px;
+}
+
+h2 {
+    color: bisque;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    color: bisque;
+}
+
+.aboutt {
+    text-align: center;
+}
+
+.textt {
+    text-align: justify;
+}
+
+.wrapper {
+    margin-top: 100px;
+    max-width: 960px;
+    padding: 5px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+header {
+    padding: 0 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.columns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 1px 0;
+}
+
+.column {
+    flex: 1;
+    border: 1px solid #666;
+    margin: 2px;
+    padding: 10px;
+    background: peachpuff;
+    transition: 0.3s;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.textt {
+    font-family: 'Times New Roman';
+    color: black;
+}
+
+
+.headd {
+color: black;
+text-align: center; 
+}
+
+.heading {
+text-align: center;
+color: bisque;
+}
+
+.gallery {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 10px;
+margin-top: 30px;
+}
+
+.gallery-img {
+width: 300px;
+height: auto;
+}
+
+footer {
+text-align: center;
+color: bisque;
+padding: 20px;
+}
+
+#join-us {
+padding: 80px 0;
+text-align: center;
+}
+
+#join-us h2 {
+font-size: 3rem;
+color: bisque;
+margin-bottom: 20px;
+}
+
+#join-us form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#join-us label {
+display: block;
+margin: 10px 0;
+color: bisque;
+}
+
+#join-us input[type="text"],
+#join-us input[type="password"] {
+width: 100%;
+padding: 10px;
+border-radius: 9px;
+font-size: 1.1rem;
+}
+
+#join-us input[type="submit"] {
+padding: 10px 20px;
+background-color: bisque;
+border: none;
+color: #22180F;
+font-size: 1.1rem;
+border-radius: 9px;
+cursor: pointer;
+}
+
+#join-us input[type="submit"]:hover {
+background-color: #F8AFA6;
+}
